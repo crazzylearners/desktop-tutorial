@@ -6,7 +6,7 @@ from Translator import translate_1, translate_2
 from QnA import QnA_
 from Spell_corrector import check_, extract_vocabs_
 from Generator import generator_, model_
-from text_to_hand import text_to_hw
+# from text_to_hand import text_to_hw
 import streamlit as st
 import pandas as pd
 from PIL import Image
@@ -14,6 +14,11 @@ from PIL import Image
 import re
 
 st.set_page_config(page_title='worKINGS', layout = 'wide', initial_sidebar_state = 'auto')
+import pywhatkit
+import pyautogui
+def text_to_hw(input_text):
+        res = pywhatkit.text_to_handwriting(input_text, save_to='Handwritten_text.png')
+        return res
 
 nav = st.sidebar.radio('NAVIGATION', ['Home', 'Machine Learning', 'Language Translator', 'Text Summarizer', 'Text Generator', 'Text to Handwritten', 'Question & Answering', 'Spell Corrector',])
 
