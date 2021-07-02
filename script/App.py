@@ -14,11 +14,11 @@ from PIL import Image
 import re
 
 st.set_page_config(page_title='worKINGS', layout = 'wide', initial_sidebar_state = 'auto')
-import pywhatkit
-import pyautogui
-def text_to_hw(input_text):
-        res = pywhatkit.text_to_handwriting(input_text, save_to='Handwritten_text.png')
-        return res
+# import pywhatkit
+# import pyautogui
+# def text_to_hw(input_text):
+#         res = pywhatkit.text_to_handwriting(input_text, save_to='Handwritten_text.png')
+#         return res
 
 nav = st.sidebar.radio('NAVIGATION', ['Home', 'Machine Learning', 'Language Translator', 'Text Summarizer', 'Text Generator', 'Text to Handwritten', 'Question & Answering', 'Spell Corrector',])
 
@@ -34,16 +34,16 @@ if nav == 'Home':
     st.markdown('<p style="text-align:center;color:#6CBBB2;font-size:50px;border-radius:2%;"><b>{}</b></p>'.format('"Open the Navigation,'), unsafe_allow_html=True)
     st.markdown('<p style="text-align:center;color:#6CBBB2;font-size:50px;border-radius:2%;"><b>{}</b></p>'.format('Enjoy the Creation"'), unsafe_allow_html=True)
     
-elif nav =='Text to Handwritten':
-    st.title('TeXt tO haNDwriTTeN')
-    st.text("")
-    st.markdown("It is a tool to convert your typed text to handwritten material. You can use it with your assignment in order to convert your text for the submission in handwrittem format.")
-    typed_input = st.text_area('Input your text below')
-    if st.button("Convert"):
-        hw_text = text_to_hw(typed_input)
-        st.text('')
-        st.text('')
-        st.image('Handwritten_text.png')
+# elif nav =='Text to Handwritten':
+#     st.title('TeXt tO haNDwriTTeN')
+#     st.text("")
+#     st.markdown("It is a tool to convert your typed text to handwritten material. You can use it with your assignment in order to convert your text for the submission in handwrittem format.")
+#     typed_input = st.text_area('Input your text below')
+#     if st.button("Convert"):
+#         hw_text = text_to_hw(typed_input)
+#         st.text('')
+#         st.text('')
+#         st.image('Handwritten_text.png')
       
 elif nav=='Language Translator':
     st.title('LanGuaGe TrAnsLaToR ToOl')
