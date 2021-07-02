@@ -190,7 +190,7 @@ elif nav == 'Machine Learning':
         st.write("      ")
 
     with col2:
-        st.image('img\ml.png')
+        st.image('ml.png')
 
     with col3:
         st.write("   ")
@@ -265,7 +265,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\Air.png', width=360)
+                st.image('Air.png', width=360)
                 st.text(" ")
                 st.text("Training loss: 0.16")
                 st.text("Validation loss: 0.05")
@@ -305,7 +305,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\health.png', width=360)
+                st.image('health.png', width=360)
                 
             elif selected_data_1=='Email Ham-Spam':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -322,7 +322,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("ROC-AUC Curve"), unsafe_allow_html=True)
-                st.image('img\spam.png', width=360,caption="ROC-AUC Curve")
+                st.image('spam.png', width=360,caption="ROC-AUC Curve")
                 
             elif selected_data_1=='Heart Failure':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -351,7 +351,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\heart.png', width=360)
+                st.image('heart.png', width=360)
                 
             elif selected_data_1=='In-vehicle-coupon-recommendation':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -388,7 +388,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\coup.png', width=360)
+                st.image('coup.png', width=360)
                 
             elif selected_data_1=='Letter Recognition':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -417,7 +417,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\letter.png', width=360)
+                st.image('letter.png', width=360)
                 
             elif selected_data_1=='Naval Propulsion':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -464,7 +464,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Neural Network plot of training and testing"), unsafe_allow_html=True)
-                st.image('img\RC.png', width=360)
+                st.image('RC.png', width=360)
                 
             elif selected_data_1=='Seismic bumps':
                 st.markdown('<p style="color:#6CBBB2;font-size:18px;border-radius:2%;">{}</p>'.format("Algorithms Used:"), unsafe_allow_html=True)
@@ -519,10 +519,10 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Convolutioal Neural Network"), unsafe_allow_html=True)
-                st.image('img\Bt1.png', width=360, caption='Neural Network plot of training and validation')
+                st.image('Bt1.png', width=360, caption='Neural Network plot of training and validation')
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("InceptionResNetV2"), unsafe_allow_html=True)
-                st.image('img\Bt2.png', width=360, caption='Neural Network plot of training and validation')
+                st.image('Bt2.png', width=360, caption='Neural Network plot of training and validation')
                 
                 
             elif selected_data_2=='Cheetah, Hyena, Jaguar, and Tiger':
@@ -539,10 +539,10 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("VGG19 Accuracy"), unsafe_allow_html=True)
-                st.image('img\cheetah2.png', width=360, caption='The accuracy at the time of training and validation')
+                st.image('cheetah2.png', width=360, caption='The accuracy at the time of training and validation')
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("VGG19 Loss"), unsafe_allow_html=True)
-                st.image('img\cheetah1.png', width=360, caption='The loss at the time of training and validation')
+                st.image('cheetah1.png', width=360, caption='The loss at the time of training and validation')
                 st.text(" ")
                 
             elif selected_data_2=='Fruits 360':
@@ -556,7 +556,7 @@ elif nav == 'Machine Learning':
                 st.text(" ")
                 st.text(" ")
                 st.markdown('<b>{}</b>'.format("Convolutional Neural Network Plot"), unsafe_allow_html=True)
-                st.image('img\FT.png', width=360, caption='Training and Validation phase of CNN model')
+                st.image('FT.png', width=360, caption='Training and Validation phase of CNN model')
 
 
             elif selected_data_2=='Medical Mnist':
@@ -570,9 +570,9 @@ elif nav == 'Machine Learning':
                     st.text(" ")
                     st.text(" ")
                     st.markdown('<b>{}</b>'.format("Convolutional Neural Network Plot"), unsafe_allow_html=True)
-                    st.image('img\mnist1.png', width=360, caption='The accuracy at the time of training and validation')
+                    st.image('mnist1.png', width=360, caption='The accuracy at the time of training and validation')
                     st.text(" ")
-                    st.image('img\mnist2.png', width=360, caption='The accuracy at the time of training and validation')
+                    st.image('mnist2.png', width=360, caption='The accuracy at the time of training and validation')
 
     
             elif selected_data_2=='Pokemon':
@@ -586,9 +586,9 @@ elif nav == 'Machine Learning':
                     st.text(" ")
                     st.text(" ")
                     st.markdown('<b>{}</b>'.format("Convolutional Neural Network Plot"), unsafe_allow_html=True)
-                    st.image('img\pk1.png', width=360, caption='The accuracy at the time of training and validation')
+                    st.image('pk1.png', width=360, caption='The accuracy at the time of training and validation')
                     st.text(" ")
-                    st.image('img\pk2.png', width=360, caption='The loss at the time of training and validation')
+                    st.image('pk2.png', width=360, caption='The loss at the time of training and validation')
 
     
             
