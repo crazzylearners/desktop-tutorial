@@ -1,12 +1,12 @@
 import sys
 sys.path.append('..')
 
-from utils.Summarizer import file_text, summary_
-from utils.Translator import translate_1, translate_2
-from utils.QnA import QnA_
-from utils.Spell_corrector import check_, extract_vocabs_
-from utils.Generator import generator_, model_
-from utils.text_to_hand import text_to_hw
+from Summarizer import file_text, summary_
+from Translator import translate_1, translate_2
+from QnA import QnA_
+from Spell_corrector import check_, extract_vocabs_
+from Generator import generator_, model_
+from text_to_hand import text_to_hw
 import streamlit as st
 import pandas as pd
 from PIL import Image
