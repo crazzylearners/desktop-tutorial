@@ -189,8 +189,8 @@ elif nav == 'Machine Learning':
     with col1:
         st.write("      ")
 
-    with col2:
-        st.image('ml.png')
+    # with col2:
+    #     st.image('ml.png')
 
     with col3:
         st.write("   ")
